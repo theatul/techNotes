@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Tech Notes"
+title = "Eng.fyi"
 theme = "anubis"
 paginate = 10
 disqusShortname = "technotes-3"
