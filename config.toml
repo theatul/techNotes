@@ -1,4 +1,4 @@
-baseURL = "http://technotes.ddns.net"
+baseURL = "/"
 languageCode = "en-us"
 title = "Tech Notes"
 theme = "anubis"
