@@ -7,10 +7,10 @@ disqusShortname = "technotes-3"
 googleAnalytics = "UA-162169622-1"
 
 [author]
-  name = "Atul Pandey"
+  name = "Atul"
 
 [params]
-author = "Atul Pandey"
+author = "Atul"
 description = ""
 env = "production"
 

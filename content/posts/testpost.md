@@ -13,6 +13,9 @@ tags: [
 ]
 ---
 
+This is a two part artical, read [part-2 here](/posts/hugo-static-site-on-pi/)
+
+
 I bought a raspberry-pi few weeks back and have been experimenting with it since. Pi is a nifty little computer, it can make you wonder with different roles and tricks it can perform for you. 
 
 Being a performance engineer I started to test its limits to see how many roles a pi 4B+ can perform simultaneously in a home 
@@ -52,7 +55,7 @@ No, although static IP makes the performance and setup process simpler, it's not
 
 1. Visit no-ip.com and create a free account.
 
-2. Choose a new domain name when asked, i selected [technotes.ddns.nets](http://technotes.ddns.net)
+2. Choose a new domain name when asked, i selected c
 
 3. Download Dynamic DNS Update Client from [www.noip.com/download?page=linux](https://www.noip.com/download?page=linux)
 
@@ -73,3 +76,5 @@ No, although static IP makes the performance and setup process simpler, it's not
 7. With this you should be able to access page served by your pi's NGINX server from the domain name created using no-ip.com. You can also choose your own domain by moving to a paid plan.
 
 Now our domain and http server are ready, so all we need is a real blog instead of default NGNIX page. In part two of this blog i will discuss steps to setup a static blog site using a static site generator.
+
+This is a two part artical, read [part-2 here](/posts/hugo-static-site-on-pi/)
