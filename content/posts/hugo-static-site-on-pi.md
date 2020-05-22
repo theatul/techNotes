@@ -1,7 +1,18 @@
 ---
 title: "Part 2: Set-up a blog on your home raspberry-pi server."
 date: 2020-05-21T23:03:27+05:30
-draft: true
+draft: false
+
+tags: [
+    "raspberry-pi",
+    "home server",
+    "web hosting",
+    "NGINX",
+    "Dynamic IP",
+    "DHCP IP",
+    "no-ip",
+    "hugo",
+]
 ---
 
 This is a two part artical, read [part-1 here](/posts/testpost/)

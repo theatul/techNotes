@@ -10,6 +10,7 @@ tags: [
     "Dynamic IP",
     "DHCP IP",
     "no-ip",
+    "hugo",
 ]
 ---
 
