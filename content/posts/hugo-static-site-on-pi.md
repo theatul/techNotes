@@ -17,7 +17,6 @@ tags: [
 
 This is a two part artical, read [part-1 here](/posts/testpost/)
 
-
 With Nginx server installed on pi and domain forwarder working, Our next task is to deploy our blog. I used a static site generator called [hugo](https://gohugo.io) for that. 
 
 Installing Hugo on pi is straight forward, use following command:
@@ -29,8 +28,7 @@ sudo apt-get install hugo
 If you are using a different operating systems, you can use [Installation guide](https://gohugo.io/getting-started/installing) for detailed steps.
 
 
-
-Once installed you can use command bellow to initialize your blog: 
+Once installed you can use command bellow to initialize your blog:
 
 ```
 hugo new site myblog
