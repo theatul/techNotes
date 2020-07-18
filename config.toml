@@ -5,6 +5,7 @@ theme = "anubis"
 paginate = 10
 disqusShortname = "technotes-3"
 googleAnalytics = "UA-162169622-1"
+enableRobotsTXT = true
 
 [author]
   name = "Atul"
@@ -13,6 +14,8 @@ googleAnalytics = "UA-162169622-1"
 author = "Atul"
 description = ""
 env = "production"
+style = "dark"
+paginationSinglePost = true
 
 [menu]
 
