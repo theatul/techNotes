@@ -13,11 +13,9 @@ tags: [
     "hugo",
 ]
 ---
-
-This is a two part artical, read [part-2 here](/posts/hugo-static-site-on-pi/)
-
-
 I bought a raspberry-pi few weeks back and have been experimenting with it since. Pi is a nifty little computer, it can make you wonder with different roles and tricks it can perform for you. 
+
+<!--more-->
 
 Being a performance engineer I started to test its limits to see how many roles a pi 4B+ can perform simultaneously in a home 
 environment. As of today one little device in my home is:

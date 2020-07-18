@@ -15,9 +15,11 @@ tags: [
 ]
 ---
 
-This is a two part artical, read [part-1 here](/posts/testpost/)
-
 With Nginx server installed on pi and domain forwarder working, Our next task is to deploy our blog. I used a static site generator called [hugo](https://gohugo.io) for that. 
+
+<!--more-->
+
+This is a two part artical, read [part-1 here](/posts/testpost/)
 
 Installing Hugo on pi is straight forward, use following command:
 

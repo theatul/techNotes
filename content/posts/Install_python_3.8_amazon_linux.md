@@ -11,6 +11,9 @@ tags: [
 
 ---
 
+Steps to install Python 3.8 on amazon linux.
+<!--more-->
+
 Install dependencies first.
 
 ```
