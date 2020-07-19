@@ -1,5 +1,5 @@
 ---
-title: "Part 1: Set-up a blog on your home raspberry-pi server."
+title: "Part 1 - Set-up a blog on your home raspberry-pi server."
 date: 2020-05-10T22:14:17+05:30
 draft: false
 tags: [
@@ -38,11 +38,11 @@ I decided to use NGINX as it's light and fast in compare to apache for serving s
 
 1.  Install NGINX using command:
 ```
-sudo apt install nginx
+        sudo apt install nginx
 ```
 2. Start the nginx service:
 ```
-sudo /etc/init.d/nginx start
+        sudo /etc/init.d/nginx start
 ```
 3. Test the server by visiting [localhost](http://localhost) or the ip of pi.
 
@@ -60,8 +60,8 @@ No, although static IP makes the performance and setup process simpler, it's not
 
 4. Extract contents of the client file and use following commands to build and install the client:
 ```
-> make
-> make install
+        > make
+        > make install
 ```
 
 5. you might encounter few dependencies error while compiling above, just install the dependencies first and retry the command.
@@ -69,11 +69,11 @@ No, although static IP makes the performance and setup process simpler, it's not
 6. Last step is to setup Port forwarding in your router, this makes sure that HTTP requests coming to your router are forwarded to your pi. This can be done by accessing your router configuration and accessing the Port Forwarding section, this is how configuration is my router looks like:
 
 
-![port forwarding](/img/port_forwarding.png)
+    ![port forwarding](/img/port_forwarding.png)
 
 
 7. With this you should be able to access page served by your pi's NGINX server from the domain name created using no-ip.com. You can also choose your own domain by moving to a paid plan.
 
 Now our domain and http server are ready, so all we need is a real blog instead of default NGNIX page. In part two of this blog i will discuss steps to setup a static blog site using a static site generator.
 
-This is a two part artical, read [part-2 here](/posts/hugo-static-site-on-pi/)
+This is a two part article, read [part-2 here](/posts/hugo-static-site-on-pi/)
