@@ -26,25 +26,25 @@ Here are the steps to prepare View Planner Harness.
     ![Summary](/img/review.png)
 
 
-3. When asked, Provide a static IP.
-4. Provide default password during OVA installation, this password is used for root user of the appliance.
+4. When asked, Provide a static IP.
+5. Provide default password during OVA installation, this password is used for root user of the appliance.
 
     ![Password](/img/password.png)
 
-5. Power on the VM once the OVA is installed, It may take few minutes to boot.
-6. Once boot is complete, login to UI using [http://<Harness_IP>/vp-ui](http://<Harness_IP>/vp-ui).
-7. Use default credentials:
+6. Power on the VM once the OVA is installed, It may take few minutes to boot.
+7. Once boot is complete, login to UI using [http://<Harness_IP>/vp-ui](http://<Harness_IP>/vp-ui).
+8. Use default credentials:
 ```
         Default user name - vmware
         Default Password  - viewplanner
 ```
 
 ## Configure View Planner Harness.
-8. Navigate to SERVERS tab and add your vCenter as Infra server.
+9. Navigate to SERVERS tab and add your vCenter as Infra server.
 
     ![Infra](/img/Infra.png)
 
-9. In SERVERS TAB, add your Active directory as Identity server. AD Server is required only for remote mode.
+10. In SERVERS TAB, add your Active directory as Identity server. AD Server is required only for remote mode.
 
     ![AD](/img/AD.png)
 
