@@ -12,7 +12,7 @@ tags: [
     "VDI Benchmark",
 ]
 ---
-Here are the steps to prepare View Planner Harness.
+Here are the steps to prepare View Planner Harness...
 <!--more-->
 
 ## Download binaries.
